@@ -1,0 +1,7 @@
+const PAPIER = 'PAPIER';
+const PIERRE = 'PIERRE';
+const CISEAUX = 'CISEAUX';
+
+const ELEMENTS = [PIERRE, PAPIER, CISEAUX];
+
+export { PIERRE, PAPIER, CISEAUX, ELEMENTS };
