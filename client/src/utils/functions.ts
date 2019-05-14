@@ -1,5 +1,5 @@
 import { USER, COMPUTER, EQUALITY } from './constantes';
-import { ELEMENTS, PIERRE, PAPIER, CISEAUX } from '../../../commons/constantes';
+import { PIERRE, PAPIER, CISEAUX } from '../../../commons/constantes';
 
 export const isUserWin = (userElem: string, computerElem: string) =>
   (userElem === PIERRE && computerElem === CISEAUX) ||
